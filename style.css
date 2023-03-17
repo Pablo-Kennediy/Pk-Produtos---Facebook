@@ -1,0 +1,16 @@
+.box{
+    float: right;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 1px solid black;
+}
+.footer{
+    display: block;
+    margin-top: 300px;
+}
+nav#footer{
+    list-style: none;
+}
+nav#footer li{
+    display: inline-block;
+}
