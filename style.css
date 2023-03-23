@@ -1,16 +1,30 @@
+div{
+    display: block;
+}
+.interface{
+    margin: 50px;
+    padding: auto;
+}
+section{
+    margin: auto;
+}
 .box{
     float: right;
     text-align: center;
     max-width: 400px;
-    box-shadow: 1px solid black;
+}
+button#creatNewCont{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
 }
 .footer{
     display: block;
     margin-top: 300px;
 }
-nav#footer{
+ul#footer{
     list-style: none;
 }
-nav#footer li{
+ul#footer li{
     display: inline-block;
 }
