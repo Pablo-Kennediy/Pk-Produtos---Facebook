@@ -12,6 +12,17 @@ body{
 .cloth{
     display: flex;
 }
+.mother{
+    margin: auto;
+    padding: auto;
+}
+picture{
+    display: block;
+    width: 200px;
+}
+picture img{
+    width: 100%;
+}
 section{
     margin: 200px;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,17 +30,23 @@ section{
 section p{
     max-width: 380px;
 }
-picture{
-    display: block;
-    margin: auto;
-}
 .box{
     float: right;
-    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+.introBox{
     background-color: white;
     box-shadow: 0px 0px 10px #636363 ;
-    text-align: center;
-    max-width: 400px;
+    padding: 30px;
+}
+input{
+    width: 100%;
+}
+button#btnEntrar{
+    color: white;
+    background-color: blue;
+    width: 100%;
 }
 button#creatNewCont{
     background-color: green;
@@ -39,7 +56,7 @@ button#creatNewCont{
 footer{
     margin-top: 90px;
 }
-ul#footer li{
+footer li{
     list-style: none;
     margin: auto;
     display: inline-block;
